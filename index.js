@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.port || 4000;
+const port = process.env.port || 5000;
 const mongoose = require('./config/db');
 const {Emp} = require('./models/employee.js');
 const bodyParser = require('body-parser');
